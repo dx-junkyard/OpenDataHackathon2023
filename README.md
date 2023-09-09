@@ -17,10 +17,10 @@
 ## デモ動画
 - [Webアプリ](https://youtu.be/fLqss9q9uh8) : OpenData検索プラグインとテンプレートを統合し、誰でも簡単にオープンデータが見つかる。
 - [プラグイン&テンプレート](https://youtu.be/u00W7Zwb3E0)：ChatGPT上でJapanOpenData pluginとノウハウの詰まったテンプレートを利用し、地図上に可視化するまでのデモ
-- データを揃える（動画追加します）: バラバラのcsv項目を指定したデータの項目に合わせて統合します。ChatGPTで変換定義を作成し、ChatGPTで生成したPythonのプログラムでデータ変換と結合を行います。
+- [バラバラのデータを統合](https://youtu.be/DgpXjJHus18) : バラバラのcsv項目を指定したデータの項目に合わせて統合します。ChatGPTで変換定義を作成し、ChatGPTで生成したPythonのプログラムでデータ変換と結合を行います。
 
 ## FAQ
-※作れれば作りたいですね。
+※ 作成予定
 
 ## リンク
 - [JapanOpenData プラグイン](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md)
@@ -28,4 +28,4 @@
 - [データ変換の仕組み](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm)
 
 ## 連絡先
-※可能であれば欲しい所ですが、notionか何かにE-mail受けられる仕組み無いですかね？
+dxjunkyard（Gメールのアカウントです。@以下を補ってください）
