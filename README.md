@@ -20,7 +20,7 @@
 - [バラバラのデータを統合](https://youtu.be/DgpXjJHus18) : バラバラのcsv項目を指定したデータの項目に合わせて統合します。ChatGPTで変換定義を作成し、ChatGPTで生成したPythonのプログラムでデータ変換と結合を行います。
 
 ## FAQ
-※ 作成予定
+[FAQ Page](Sep10-2023_FAQ.md)
 
 ## リンク
 - [JapanOpenData プラグイン](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md)
