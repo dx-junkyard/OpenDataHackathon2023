@@ -12,7 +12,7 @@
 
 ## ハッカソンでの発表
 [発表資料](OpenData-Bridge_ODH23_0910.pdf)、
-[YouTube](https://youtu.be/5fV69rdVWEc)
+[YouTube](https://youtu.be/0QoSDb9AM9o)
 
 ## デモ動画
 - [Webアプリ](https://youtu.be/JeJejE0zTpw) : OpenData検索プラグインとテンプレートを統合し、誰でも簡単にオープンデータが見つかる。
