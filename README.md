@@ -17,7 +17,7 @@
 ## デモ動画
 - [Webアプリ](https://youtu.be/JeJejE0zTpw) : OpenData検索プラグインとテンプレートを統合し、誰でも簡単にオープンデータが見つかる。
 - [プラグイン&テンプレート](https://youtu.be/yfqMH_vYTvU)：ChatGPT上でJapanOpenData pluginとノウハウの詰まったテンプレートを利用し、地図上に可視化するまでのデモ
-- [バラバラのデータを統合](https://youtu.be/GS9HADN9fh8) : バラバラのcsv項目を指定したデータの項目に合わせて統合します。ChatGPTで変換定義を作成し、ChatGPTで生成したPythonのプログラムでデータ変換と結合を行います。
+- [バラバラのデータを統合](https://youtu.be/GS9HADN9fh8) : バラバラのcsv項目を指定したデータの項目に合わせて統合します。ChatGPTで入力データに合わせた変換定義を作成し、Pythonのプログラムでデータ変換と結合を行います。
 
 ## 連携サービス
 [都知事杯OpenDataHackathon2023](https://odhackathon.metro.tokyo.lg.jp/) において下記の参加チームの開発サービス向けに、使用されるデータの整備や、データ検索＆整形など本プロジェクトのツール群を使ったサポートを実施しております。
