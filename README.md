@@ -17,14 +17,14 @@
 ## デモ動画
 - [Webアプリ](https://youtu.be/JeJejE0zTpw) : OpenData検索プラグインとテンプレートを統合し、誰でも簡単にオープンデータが見つかる。
 - [プラグイン&テンプレート](https://youtu.be/yfqMH_vYTvU)：ChatGPT上でJapanOpenData pluginとノウハウの詰まったテンプレートを利用し、地図上に可視化するまでのデモ
-- [バラバラのデータを統合](https://youtu.be/WfBg971JJxo) : バラバラのcsv項目を指定したデータの項目に合わせて統合します。ChatGPTで変換定義を作成し、ChatGPTで生成したPythonのプログラムでデータ変換と結合を行います。
+- [バラバラのデータを統合](https://youtu.be/GS9HADN9fh8) : バラバラのcsv項目を指定したデータの項目に合わせて統合します。ChatGPTで変換定義を作成し、ChatGPTで生成したPythonのプログラムでデータ変換と結合を行います。
 
 ## FAQ
 [FAQ Page](Sep10-2023_FAQ.md)
 
 ## リンク
 - [JapanOpenData プラグイン](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md)
-- JapanOpenData用プロンプトテンプレート集 (準備中)
+- [JapanOpenData用プロンプトテンプレート集](https://github.com/dx-junkyard/OpenDataHackathon2023/tree/main/prompt_template)
 - [データ変換の仕組み](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm)
 
 ## 連絡先
