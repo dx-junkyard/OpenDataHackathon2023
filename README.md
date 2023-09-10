@@ -28,4 +28,4 @@
 - [データ変換の仕組み](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm)
 
 ## 連絡先
-dxjunkyard（Gメールのアカウントです。@以下を補ってください）
+![メール](em_add.png)
