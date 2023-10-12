@@ -37,4 +37,4 @@
 - [データ変換の仕組み](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm)
 
 ## 連絡先
-![メール](em_add.png) - https://www.dx-junkyard.com/
+![メール](em_add.png) - [https://www.dx-junkyard.com/](https://www.dx-junkyard.com/)
