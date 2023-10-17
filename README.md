@@ -3,17 +3,19 @@
 ## 私達はOpenDataの「見つからない」と「形式がバラバラで使いにくい」という問題を解消し、データを作る人と使う人の架け橋を提供します。
 
 ## 着目した課題
+現状、オープンデータの活用には様々な課題があります。例えば、
 - 目的のデータを探すことが難しい
 - 自治体ごとに項目、項目名、並びが異なる
-- 独自の注釈がファイル中にあり、処理の妨げになっている
-- 表記ゆれ
-
+- 処理の妨げになるような注釈の書き方がなされている
+他にも様々な問題がありますが、こうした問題はデータを価値ある利用先（サービス）に結びつけることができていないため、データ整備を体系立てて進めるための仕組みと文化が育たなかったことが原因として考えられます。
 
 ## サービス概要
-OpenData Bridgeは以下３つの機能を提供することでオープンデータをサービスで使える状態にします。
-- データの収集・整形を行うTool群([検索plugin](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md),[整形](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm))
-- 収集・整形レシピの共有するための[Library](https://github.com/dx-junkyard/OpenData-Library)
-- 収集・整形を自動化するためのpipeline([1](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm#b-pipeline%E3%81%A7%E8%87%AA%E5%8B%95%E5%8C%96), [2 github actions](https://github.com/dx-junkyard/OpenData-Bridge-DataPipeline))
+私達の**OpenData Bridge**は、オープンデータの作成・整備が促進されるような文化を育む土壌を仕組みとして提供します。
+
+### OpenData Bridgeの主な機能
+- データ収集と整形を支援する**Tools([検索plugin](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md),[整形](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm))**
+- データ収集と整形方法を**レシピ**としてみんなで**共有する[Library](https://github.com/dx-junkyard/OpenData-Library)**
+- データ収集と整形のレシピを入れて**整形済みデータを自動で生成するPipeline([1 手元で実行](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm#b-pipeline%E3%81%A7%E8%87%AA%E5%8B%95%E5%8C%96), [2 github actions](https://github.com/dx-junkyard/OpenData-Bridge-DataPipeline))**
 
 ### OpenData Bridge全体像
 ![OpenData Bridge全体像](whole_image.png)
