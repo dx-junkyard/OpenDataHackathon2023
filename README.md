@@ -27,11 +27,11 @@
 ### 詳細説明
 - OpenData Bridge Tools
   - データ検索を支援します
-    - OpenData検索 Webアプリ[利用にはid/passwordが必要です](https://opendata-bridge-pro.vercel.app/) , [デモ動画](https://youtu.be/JeJejE0zTpw)
-    - ChatGPTプラグイン [JapanOpen Data](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md), [デモ動画](https://youtu.be/yfqMH_vYTvU)
+    - OpenData検索 Webアプリ  [使ってみる(要id/password)](https://opendata-bridge-pro.vercel.app/) , [デモ動画](https://youtu.be/JeJejE0zTpw)
+    - ChatGPTプラグイン  [JapanOpen Data](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md), [デモ動画](https://youtu.be/yfqMH_vYTvU)
     - [ChatGPTプロンプトテンプレート](https://github.com/dx-junkyard/OpenDataHackathon2023/tree/main/prompt_template)
   - データ整形を支援します
-    - [DataNorm](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm/blob/main/README.md)の提供、 [デモ動画](https://youtu.be/GS9HADN9fh8)
+    - [DataNorm](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm#%E5%AE%9F%E8%A1%8C%E6%96%B9%E6%B3%95-a-%E5%A4%89%E6%8F%9B%E5%AE%9A%E7%BE%A9%E3%81%AE%E4%BD%9C%E6%88%90%E3%83%9E%E3%83%BC%E3%82%B8)の提供、 [デモ動画](https://youtu.be/GS9HADN9fh8)
 - Library
   - データの収集・整形レシピを共有し、データ整備できる人を増やします
     - [データ収集レシピ](https://github.com/dx-junkyard/OpenData-Library/tree/main/resources_configs)
@@ -39,7 +39,7 @@
   - 整備したデータを共有し、一つでも多くのサービスで利用できる状態にします
 - Pipeline
   - データ収集、整形のレシピを組み込んでデータ整備を自動化します
-    - [手元でPipeline実行](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm#b-pipeline%E3%81%A7%E8%87%AA%E5%8B%95%E5%8C%96)
+    - [手元でPipeline実行](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm#%E5%AE%9F%E8%A1%8C%E6%96%B9%E6%B3%95-b-pipeline%E3%81%A7%E8%87%AA%E5%8B%95%E5%8C%96)
     - [github actionsでPipelineを定期実行](https://github.com/dx-junkyard/OpenData-Bridge-DataPipeline)
 
 
