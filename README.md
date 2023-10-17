@@ -27,7 +27,7 @@
 ### 詳細説明
 - OpenData Bridge Tools
   - データ検索を支援します
-    - [OpenData検索 Webアプリ](https://opendata-bridge.dx-junkyard.com)
+    - [OpenData検索 Webアプリ](https://opendata-bridge-pro.vercel.app/) （id/passwordが必要）
     - ChatGPTプラグイン([JapanOpen Data](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md))
   - データ整形を支援します
     - [DataNorm](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm/blob/main/README.md)の提供
