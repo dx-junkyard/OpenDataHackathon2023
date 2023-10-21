@@ -2,7 +2,7 @@
 
 ## デモサイトと動画
 ### データ検索のデモ
-- [Webアプリ](https://opendata-bridge-pro.vercel.app/)
+- [データ検索Webアプリ](https://opendata-bridge-pro.vercel.app/)
   - ChatGPT支援を使った検索を行うにはID/PASSWORDを入力します
   - ![Webアプリ使用方法](webapp_demo_usage.png)
 - [データ検索のデモ動画(Webアプリ)](https://youtu.be/JeJejE0zTpw)
