@@ -2,12 +2,15 @@
 
 ## デモサイトと動画
 ### データ検索のデモ
-- [データ検索Webアプリ](https://opendata-bridge-pro.vercel.app/)
+- [Webアプリ](https://opendata-bridge-pro.vercel.app/)
   - ChatGPT支援を使った検索を行うにはID/PASSWORDを入力します
   - ![Webアプリ使用方法](webapp_demo_usage.png)
-- [データ検索のデモ動画(Webアプリ)](https://youtu.be/JeJejE0zTpw)
-- [データ検索のデモ動画(ChatGPT plugin)](https://youtu.be/yfqMH_vYTvU)
-- [データ整形のデモ動画(DataNorm)](https://youtu.be/GS9HADN9fh8)
+### データ検索のデモ動画
+- [Webアプリ](https://youtu.be/JeJejE0zTpw)
+- [ChatGPT plugin](https://youtu.be/yfqMH_vYTvU)
+### データ整形のデモ動画
+- [DataNorm](https://youtu.be/GS9HADN9fh8)
+### データ整形自動化のデモ動画
 - [データ整形自動化のデモ動画(Pipeline)](https://youtu.be/7OhWcRofCoM)
 
 ## 私達はOpenDataの「見つからない」と「形式がバラバラで使いにくい」という問題を解消し、データを作る人と使う人の架け橋を提供します。
