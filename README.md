@@ -11,7 +11,7 @@
 ### データ整形のデモ動画
 - [DataNorm](https://youtu.be/GS9HADN9fh8)
 ### データ整形自動化のデモ動画
-- [データ整形自動化のデモ動画(Pipeline)](https://youtu.be/7OhWcRofCoM)
+- [Pipeline](https://youtu.be/7OhWcRofCoM)
 
 ## 私達はOpenDataの「見つからない」と「形式がバラバラで使いにくい」という問題を解消し、データを作る人と使う人の架け橋を提供します。
 
