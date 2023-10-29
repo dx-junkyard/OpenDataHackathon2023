@@ -76,6 +76,7 @@
 [FAQ Page](Sep10-2023_FAQ.md)
 
 ## リンク
+- [OpenData Bridge Tools | github](https://github.com/FooQoo/opendata-bridge)
 - [JapanOpenData プラグイン](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md)
 - [JapanOpenData用プロンプトテンプレート集](https://github.com/dx-junkyard/OpenDataHackathon2023/tree/main/prompt_template)
 - [データ変換の仕組み](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm)
