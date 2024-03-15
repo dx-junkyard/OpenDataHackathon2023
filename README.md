@@ -4,6 +4,10 @@
 OpenData Bridgeは、オープンデータの生成、加工、そして共有をサポートするツール群を提供します。
 都知事杯DemoDayをご覧になったオープンデータの加工に関わる皆様、特に自治体職員の方々が直面しているオープンデータに関する課題を解決するために設計されています。
 
+## コミュニティ参加のお誘い
+dx-junkyardでは、技術共有やコラボレーションを通じて、互いに学び、支援し合うメンバーを募集しています。一緒に創造性と革新性に満ちた社会の実現に貢献しましょう。
+[コミュニティ参加はこちらのフォームから](https://forms.gle/PVW4kYYh53SzbfdbA)
+
 ## OpenData Bridgeの主な機能
 
 ### 1. OpenData Bridge UI
@@ -23,13 +27,10 @@ OpenData Bridgeは、オープンデータの生成、加工、そして共有�
 [詳細はこちら](https://github.com/dx-junkyard/OpenData-Bridge-pipeline)
 
 
-## コミュニティ参加のお誘い
-dx-junkyardでは、技術共有やコラボレーションを通じて、互いに学び、支援し合うメンバーを募集しています。一緒に創造性と革新性に満ちた社会の実現に貢献しましょう。
-[コミュニティ参加はこちらのフォームから](https://forms.gle/PVW4kYYh53SzbfdbA)
-
 ## 連絡先
 OpenData Bridgeやデモ動画に関するご質問、その他のお問い合わせはこちらからお願いいたします。
 [https://www.dx-junkyard.com/](https://www.dx-junkyard.com/)
+
 ![メール](em_add.png)
 
 
