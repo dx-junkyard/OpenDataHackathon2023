@@ -1,86 +1,35 @@
-# OpenDataHackathon2023
+# OpenData Bridge - オープンデータの加工と共有をシンプルに
 
-## デモサイトと動画
-### データ検索のデモ
-- [Webアプリ](https://opendata-bridge-pro.vercel.app/)
-  - ChatGPT支援を使った検索を行うにはID/PASSWORDを入力します
-  - ![Webアプリ使用方法](webapp_demo_usage.png)
-### データ検索のデモ動画
-- [Webアプリ](https://youtu.be/JeJejE0zTpw)
-- [ChatGPT plugin](https://youtu.be/yfqMH_vYTvU)
-### データ整形のデモ動画
-- [DataNorm](https://youtu.be/GS9HADN9fh8)
-### データ整形自動化のデモ動画
-- [Pipeline](https://youtu.be/7OhWcRofCoM)
+## はじめに
+OpenData Bridgeは、オープンデータの生成、加工、そして共有をサポートするツール群を提供します。
+都知事杯DemoDayをご覧になったオープンデータの加工に関わる皆様、特に自治体職員の方々が直面しているオープンデータに関する課題を解決するために設計されています。
 
-## 私達はOpenDataの「見つからない」と「形式がバラバラで使いにくい」という問題を解消し、データを作る人と使う人の架け橋を提供します。
+## OpenData Bridgeの主な機能
 
-## 着目した課題
-現状、オープンデータの活用には様々な課題があります。例えば、
-- 目的のデータを探すことが難しい
-- 自治体ごとに項目、項目名、並びが異なる
-- 処理の妨げになるような注釈の書き方がなされている
+### 1. OpenData Bridge UI
+プログラミング知識がなくても、誰でも直感的にデータを加工できるユーザーインターフェース。これにより、データ加工のハードルが大幅に低下します。
+[詳細はこちら](https://github.com/dx-junkyard/OpenDataHackathon2023/tree/main/ODB-UI.md)
 
+### 2. OpenData-Library
+共有・再利用可能なデータ加工コードやpipeline定義を集約。このライブラリにより、効率的なデータ加工が可能になります。
+[詳細はこちら](https://github.com/dx-junkyard/OpenData-Library)
 
-他にも様々な問題がありますが、こうした問題はデータを価値ある利用先（サービス）に結びつけることができていないため改善サイクルが回らず、データ整備を体系立てて進めるための仕組みと文化が育たなかったことが原因として考えられます。
+### 3. OpenData-Archive
+加工済みの様々なオープンデータを共有する場。このアーカイブにより、既に加工されたデータを簡単に再利用できます。
+[詳細はこちら](https://github.com/dx-junkyard/OpenData-Archive)
 
-## サービス概要
-私達の**OpenData Bridge**は、オープンデータの作成・整備が促進されるような文化を育む土壌を仕組みとして提供することで、小さな改善サイクルが数多く回る状態を目指します。
-
-### OpenData Bridgeの主な機能
-- データ収集と整形を支援する**Tools**
-- データ収集と整形方法を**レシピ**としてみんなで**共有するLibrary**
-- データ収集と整形のレシピを入れて**整形済みデータを自動で生成するPipeline**
+### 4. OpenData-Bridge-pipeline
+データ加工の自動化と効率化をサポートするパイプラインツールです。Dockerコンテナを使用して、どこでも環境に依存せずに実行できます。
+[詳細はこちら](https://github.com/dx-junkyard/OpenData-Bridge-pipeline)
 
 
-### OpenData Bridge全体像
-![OpenData Bridge全体像](whole_image.png)
-
-
-### 詳細説明
-- OpenData Bridge Tools
-  - データ検索を支援します
-    - OpenData検索 Webアプリ  [使ってみる(要id/password)](https://opendata-bridge-pro.vercel.app/) , [デモ動画](https://youtu.be/JeJejE0zTpw)
-    - ChatGPTプラグイン  [JapanOpen Data](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md), [デモ動画](https://youtu.be/yfqMH_vYTvU)
-    - [ChatGPTプロンプトテンプレート](https://github.com/dx-junkyard/OpenDataHackathon2023/tree/main/prompt_template)
-  - データ整形を支援します
-    - [DataNorm](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm#%E5%AE%9F%E8%A1%8C%E6%96%B9%E6%B3%95-a-%E5%A4%89%E6%8F%9B%E5%AE%9A%E7%BE%A9%E3%81%AE%E4%BD%9C%E6%88%90%E3%83%9E%E3%83%BC%E3%82%B8)の提供、 [デモ動画](https://youtu.be/GS9HADN9fh8)
-- Library
-  - データの収集・整形レシピを共有し、データ整備できる人を増やします
-    - [データ収集レシピ](https://github.com/dx-junkyard/OpenData-Library/tree/main/resources_configs)
-    - [データ整形レシピ](https://github.com/dx-junkyard/OpenData-Library/tree/main/converters)
-  - 整備したデータを共有し、一つでも多くのサービスで利用できる状態にします
-- Pipeline
-  - データ収集、整形のレシピを組み込んでデータ整備を自動化します
-    - [手元でPipeline実行](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm#%E5%AE%9F%E8%A1%8C%E6%96%B9%E6%B3%95-b-pipeline%E3%81%A7%E8%87%AA%E5%8B%95%E5%8C%96)
-    - [github actionsでPipelineを定期実行](https://github.com/dx-junkyard/OpenData-Bridge-DataPipeline)
-
-
-## ハッカソンでの発表
-- First Stage 2023-09-10
-  - [発表資料](OpenData-Bridge_ODH23_0910.pdf)、[YouTube](https://www.youtube.com/watch?v=TiiDAus5tUk&t=7033s)
-- Final Stage 2023-10-22
-  - [発表資料](OpenData-Bridge_ODH23_1022.pdf)
-
-## 連携サービス
-[都知事杯OpenDataHackathon2023](https://odhackathon.metro.tokyo.lg.jp/) において下記の参加チームの開発サービス向けに、使用されるデータの整備や、データ検索＆整形など本プロジェクトのツール群を使ったサポートを実施しております。
-- 「オープンデータスゴイ！」【連携済】オープンデータの「宝探し」を終わらせよう！〜「使えるデータ」を使ってもらう」ために〜[FirstStageの発表](https://www.youtube.com/watch?v=TiiDAus5tUk&t=4199s)
-- 発表ID 7  「シェアード法令(SLO)」 【調整中】根っこから！パブリックを動かすルールを学び合うプラットフォーム [FirstStageの発表](https://www.youtube.com/watch?v=TiiDAus5tUk&t=1640s)
-- 発表ID 40 「こそだてっく」 【連携済】[子育て困り事解決ポータル（デモサイト）](https://preview.studio.site/live/V5a7JbynqR) [FirstStageの発表](https://www.youtube.com/watch?v=TiiDAus5tUk&t=7391s)
-- 発表ID 41 「マイナセーフティ」 【調整中】災害時に近くの人と助け合える仕組み [FirstStage](https://www.youtube.com/watch?v=TiiDAus5tUk&t=7033s)
-
-データ検索、整形などでお手伝いできそうなサービスがあればご連絡ください。
-
-
-## FAQ
-[FAQ Page](Sep10-2023_FAQ.md)
-
-## リンク
-- [OpenData Bridge Tools | github](https://github.com/FooQoo/opendata-bridge)
-- [JapanOpenData プラグイン](https://github.com/FooQoo/japan-opendata-chatgpt-plugin/blob/develop/docs/usage.md)
-- [JapanOpenData用プロンプトテンプレート集](https://github.com/dx-junkyard/OpenDataHackathon2023/tree/main/prompt_template)
-- [データ変換の仕組み](https://github.com/dx-junkyard/OpenData-Bridge-DataNorm)
+## コミュニティ参加のお誘い
+dx-junkyardでは、技術共有やコラボレーションを通じて、互いに学び、支援し合うメンバーを募集しています。一緒に創造性と革新性に満ちた社会の実現に貢献しましょう。
+[コミュニティ参加はこちらのフォームから](https://forms.gle/PVW4kYYh53SzbfdbA)
 
 ## 連絡先
-[https://www.dx-junkyard.com/](https://www.dx-junkyard.com/)  
+OpenData Bridgeやデモ動画に関するご質問、その他のお問い合わせはこちらからお願いいたします。
+[https://www.dx-junkyard.com/](https://www.dx-junkyard.com/)
 ![メール](em_add.png)
+
+
