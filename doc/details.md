@@ -22,7 +22,7 @@ ODBはプロンプトの内容を読み込んで、その処理を実現するPy
 
 希望するCSVをダウンロードできたら、今まで作成したPythonコードを保存しましょう。Pythonコードの右上にコピーアイコンとダウンロードアイコンがあります。複数のPythonコードがあると思いますので、それを集めて再整理すると、今までプロンプトでやってきた処理を再現できるPythonコードが作れます。この、プロンプトのやり取りを反映させたPythonコードのことを「レシピ」と呼んでいます。
 
-[!['ODB利用の流れ'](ODB2023_YouTube.png)]('https://www.youtube.com/watch?v=4bQnxkUSlBI')
+[!['ODB利用の流れ'](ODB2023_YouTube.png)](https://www.youtube.com/watch?v=4bQnxkUSlBI)
 
 
 ## ODBを構成するソースコード
